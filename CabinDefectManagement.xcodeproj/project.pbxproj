@@ -37,6 +37,53 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0B9141291F9FB6EA00B61733 /* Planner */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Planner;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		0B91412A1F9FB6F900B61733 /* Supervisor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Supervisor;
+			sourceTree = "<group>";
+		};
+		0B91412B1F9FB70500B61733 /* Technician */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Technician;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		0B91412C1F9FB70D00B61733 /* Inventory Team */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Inventory Team";
+			sourceTree = "<group>";
+		};
+		0B91412D1F9FB73500B61733 /* Cargo Team */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Cargo Team";
+			sourceTree = "<group>";
+		};
+		0B91412E1F9FB75500B61733 /* Defects Team */ = {
+			isa = PBXGroup;
+			children = (
+				0B91412B1F9FB70500B61733 /* Technician */,
+				0B91412A1F9FB6F900B61733 /* Supervisor */,
+				0B9141291F9FB6EA00B61733 /* Planner */,
+			);
+			path = "Defects Team";
+			sourceTree = "<group>";
+		};
 		0BF67F3B1F9F5CA9007CD7D3 = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +103,9 @@
 		0BF67F461F9F5CA9007CD7D3 /* CabinDefectManagement */ = {
 			isa = PBXGroup;
 			children = (
+				0B91412E1F9FB75500B61733 /* Defects Team */,
+				0B91412D1F9FB73500B61733 /* Cargo Team */,
+				0B91412C1F9FB70D00B61733 /* Inventory Team */,
 				0BF67F471F9F5CA9007CD7D3 /* AppDelegate.swift */,
 				0BF67F491F9F5CA9007CD7D3 /* ViewController.swift */,
 				0BF67F4B1F9F5CA9007CD7D3 /* Main.storyboard */,
