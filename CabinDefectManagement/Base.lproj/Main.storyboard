@@ -446,6 +446,9 @@
                         <viewLayoutGuide key="safeArea" id="tCY-1C-MA2"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item 1" id="eaJ-Z7-UDx"/>
+                    <connections>
+                        <segue destination="bZe-eT-VDW" kind="presentation" id="sN6-tO-Drs"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Z2N-se-IM8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -475,6 +478,7 @@
         <!--Tab Bar Controller-->
         <scene sceneID="nrj-MP-jgK">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hkO-Lz-uMF" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <tabBarController id="5ia-en-hwK" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="CXa-Db-WoV">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
@@ -486,7 +490,6 @@
                         <segue destination="9j5-Vc-xk6" kind="relationship" relationship="viewControllers" id="U8J-Az-Z7d"/>
                     </connections>
                 </tabBarController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="hkO-Lz-uMF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3364" y="1254"/>
         </scene>
