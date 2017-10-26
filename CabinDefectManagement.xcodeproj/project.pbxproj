@@ -7,10 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0BBBB9241FA1B033001A1531 /* ARSCNView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BBBB9201FA1B032001A1531 /* ARSCNView.swift */; };
-		0BBBB9251FA1B033001A1531 /* Line.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BBBB9211FA1B032001A1531 /* Line.swift */; };
-		0BBBB9261FA1B033001A1531 /* MeasureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BBBB9221FA1B033001A1531 /* MeasureViewController.swift */; };
-		0BBBB9271FA1B033001A1531 /* SCNVector3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BBBB9231FA1B033001A1531 /* SCNVector3.swift */; };
 		0BF67F481F9F5CA9007CD7D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF67F471F9F5CA9007CD7D3 /* AppDelegate.swift */; };
 		0BF67F4A1F9F5CA9007CD7D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF67F491F9F5CA9007CD7D3 /* ViewController.swift */; };
 		0BF67F4D1F9F5CA9007CD7D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BF67F4B1F9F5CA9007CD7D3 /* Main.storyboard */; };
@@ -20,10 +16,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0BBBB9201FA1B032001A1531 /* ARSCNView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARSCNView.swift; sourceTree = "<group>"; };
-		0BBBB9211FA1B032001A1531 /* Line.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Line.swift; sourceTree = "<group>"; };
-		0BBBB9221FA1B033001A1531 /* MeasureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeasureViewController.swift; sourceTree = "<group>"; };
-		0BBBB9231FA1B033001A1531 /* SCNVector3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCNVector3.swift; sourceTree = "<group>"; };
 		0BF67F441F9F5CA9007CD7D3 /* CabinDefectManagement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CabinDefectManagement.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BF67F471F9F5CA9007CD7D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0BF67F491F9F5CA9007CD7D3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -106,10 +98,6 @@
 		0B9141301F9FB9C800B61733 /* Staff */ = {
 			isa = PBXGroup;
 			children = (
-				0BBBB9201FA1B032001A1531 /* ARSCNView.swift */,
-				0BBBB9211FA1B032001A1531 /* Line.swift */,
-				0BBBB9221FA1B033001A1531 /* MeasureViewController.swift */,
-				0BBBB9231FA1B033001A1531 /* SCNVector3.swift */,
 			);
 			path = Staff;
 			sourceTree = "<group>";
@@ -233,13 +221,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0BBBB9241FA1B033001A1531 /* ARSCNView.swift in Sources */,
 				0BF67F4A1F9F5CA9007CD7D3 /* ViewController.swift in Sources */,
 				0BF67F501F9F5CA9007CD7D3 /* CabinDefectManagement.xcdatamodeld in Sources */,
-				0BBBB9261FA1B033001A1531 /* MeasureViewController.swift in Sources */,
 				0BF67F481F9F5CA9007CD7D3 /* AppDelegate.swift in Sources */,
-				0BBBB9251FA1B033001A1531 /* Line.swift in Sources */,
-				0BBBB9271FA1B033001A1531 /* SCNVector3.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
