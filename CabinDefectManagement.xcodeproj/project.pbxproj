@@ -7,23 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0BC504481FA1BEFB004693A4 /* Line.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC504441FA1BEFB004693A4 /* Line.swift */; };
-		0BC504491FA1BEFB004693A4 /* ARSCNView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC504451FA1BEFB004693A4 /* ARSCNView.swift */; };
-		0BC5044A1FA1BEFB004693A4 /* MeasureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC504461FA1BEFB004693A4 /* MeasureViewController.swift */; };
-		0BC5044B1FA1BEFB004693A4 /* SCNVector3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC504471FA1BEFB004693A4 /* SCNVector3.swift */; };
 		0BF67F481F9F5CA9007CD7D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF67F471F9F5CA9007CD7D3 /* AppDelegate.swift */; };
 		0BF67F4A1F9F5CA9007CD7D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF67F491F9F5CA9007CD7D3 /* ViewController.swift */; };
 		0BF67F4D1F9F5CA9007CD7D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BF67F4B1F9F5CA9007CD7D3 /* Main.storyboard */; };
 		0BF67F501F9F5CA9007CD7D3 /* CabinDefectManagement.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0BF67F4E1F9F5CA9007CD7D3 /* CabinDefectManagement.xcdatamodeld */; };
 		0BF67F521F9F5CA9007CD7D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BF67F511F9F5CA9007CD7D3 /* Assets.xcassets */; };
 		0BF67F551F9F5CA9007CD7D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BF67F531F9F5CA9007CD7D3 /* LaunchScreen.storyboard */; };
+		25BB050087A5069DFD458E46 /* Pods_CabinDefectManagement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4096ADC4848D56CA109C2F5E /* Pods_CabinDefectManagement.framework */; };
+		4B04DE951FA19EA100D0D3BE /* GroundTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B04DE921FA19EA100D0D3BE /* GroundTime.swift */; };
+		4B04DE961FA19EA100D0D3BE /* Defects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B04DE931FA19EA100D0D3BE /* Defects.swift */; };
+		4B04DE971FA19EA100D0D3BE /* Employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B04DE941FA19EA100D0D3BE /* Employee.swift */; };
+		4B04DE9C1FA1A39100D0D3BE /* TechUITableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B04DE991FA1A39000D0D3BE /* TechUITableViewCell.swift */; };
+		4B04DE9D1FA1A39100D0D3BE /* TechUITableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B04DE9A1FA1A39100D0D3BE /* TechUITableViewController.swift */; };
+		4B04DE9E1FA1A39100D0D3BE /* TechUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B04DE9B1FA1A39100D0D3BE /* TechUIViewController.swift */; };
+		4B1E2A951FA18FC800EE53E4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4B1E2A941FA18FC800EE53E4 /* GoogleService-Info.plist */; };
+		4B1E2A991FA19B3400EE53E4 /* SupervisorUITableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1E2A981FA19B3400EE53E4 /* SupervisorUITableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0BC504441FA1BEFB004693A4 /* Line.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Line.swift; sourceTree = "<group>"; };
-		0BC504451FA1BEFB004693A4 /* ARSCNView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARSCNView.swift; sourceTree = "<group>"; };
-		0BC504461FA1BEFB004693A4 /* MeasureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeasureViewController.swift; sourceTree = "<group>"; };
-		0BC504471FA1BEFB004693A4 /* SCNVector3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCNVector3.swift; sourceTree = "<group>"; };
 		0BF67F441F9F5CA9007CD7D3 /* CabinDefectManagement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CabinDefectManagement.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BF67F471F9F5CA9007CD7D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0BF67F491F9F5CA9007CD7D3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -32,6 +33,17 @@
 		0BF67F511F9F5CA9007CD7D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0BF67F541F9F5CA9007CD7D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0BF67F561F9F5CA9007CD7D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4096ADC4848D56CA109C2F5E /* Pods_CabinDefectManagement.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CabinDefectManagement.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B04DE921FA19EA100D0D3BE /* GroundTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroundTime.swift; sourceTree = "<group>"; };
+		4B04DE931FA19EA100D0D3BE /* Defects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Defects.swift; sourceTree = "<group>"; };
+		4B04DE941FA19EA100D0D3BE /* Employee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Employee.swift; sourceTree = "<group>"; };
+		4B04DE991FA1A39000D0D3BE /* TechUITableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TechUITableViewCell.swift; path = CabinDefectManagement/Technician/TechUITableViewCell.swift; sourceTree = SOURCE_ROOT; };
+		4B04DE9A1FA1A39100D0D3BE /* TechUITableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TechUITableViewController.swift; path = CabinDefectManagement/Technician/TechUITableViewController.swift; sourceTree = SOURCE_ROOT; };
+		4B04DE9B1FA1A39100D0D3BE /* TechUIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TechUIViewController.swift; path = CabinDefectManagement/Technician/TechUIViewController.swift; sourceTree = SOURCE_ROOT; };
+		4B1E2A941FA18FC800EE53E4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4B1E2A981FA19B3400EE53E4 /* SupervisorUITableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupervisorUITableViewController.swift; sourceTree = "<group>"; };
+		958CB3BFCB820F6127162257 /* Pods-CabinDefectManagement.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CabinDefectManagement.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CabinDefectManagement/Pods-CabinDefectManagement.debug.xcconfig"; sourceTree = "<group>"; };
+		FA6DE0F2AF8322BBE7E433C1 /* Pods-CabinDefectManagement.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CabinDefectManagement.release.xcconfig"; path = "Pods/Target Support Files/Pods-CabinDefectManagement/Pods-CabinDefectManagement.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,100 +51,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25BB050087A5069DFD458E46 /* Pods_CabinDefectManagement.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0B9141291F9FB6EA00B61733 /* Planner */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Planner;
-			path = ..;
-			sourceTree = "<group>";
-		};
-		0B91412A1F9FB6F900B61733 /* Supervisor */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Supervisor;
-			sourceTree = "<group>";
-		};
-		0B91412B1F9FB70500B61733 /* Technician */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Technician;
-			path = ..;
-			sourceTree = "<group>";
-		};
-		0B91412C1F9FB70D00B61733 /* Inventory Team */ = {
-			isa = PBXGroup;
-			children = (
-				0B9141321F9FB9EA00B61733 /* HQ */,
-				0B9141311F9FB9DF00B61733 /* Caterer */,
-			);
-			path = "Inventory Team";
-			sourceTree = "<group>";
-		};
-		0B91412D1F9FB73500B61733 /* Cargo Team */ = {
-			isa = PBXGroup;
-			children = (
-				0BC504431FA1B8A8004693A4 /* Staff */,
-				0B91412F1F9FB97C00B61733 /* Operators */,
-			);
-			name = "Cargo Team";
-			sourceTree = "<group>";
-		};
-		0B91412E1F9FB75500B61733 /* Defects Team */ = {
-			isa = PBXGroup;
-			children = (
-				0B91412B1F9FB70500B61733 /* Technician */,
-				0B91412A1F9FB6F900B61733 /* Supervisor */,
-				0B9141291F9FB6EA00B61733 /* Planner */,
-			);
-			path = "Defects Team";
-			sourceTree = "<group>";
-		};
-		0B91412F1F9FB97C00B61733 /* Operators */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Operators;
-			sourceTree = "<group>";
-		};
-		0B9141311F9FB9DF00B61733 /* Caterer */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Caterer;
-			sourceTree = "<group>";
-		};
-		0B9141321F9FB9EA00B61733 /* HQ */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = HQ;
-			sourceTree = "<group>";
-		};
-		0BC504431FA1B8A8004693A4 /* Staff */ = {
-			isa = PBXGroup;
-			children = (
-				0BC504451FA1BEFB004693A4 /* ARSCNView.swift */,
-				0BC504441FA1BEFB004693A4 /* Line.swift */,
-				0BC504461FA1BEFB004693A4 /* MeasureViewController.swift */,
-				0BC504471FA1BEFB004693A4 /* SCNVector3.swift */,
-			);
-			path = Staff;
-			sourceTree = "<group>";
-		};
 		0BF67F3B1F9F5CA9007CD7D3 = {
 			isa = PBXGroup;
 			children = (
 				0BF67F461F9F5CA9007CD7D3 /* CabinDefectManagement */,
 				0BF67F451F9F5CA9007CD7D3 /* Products */,
+				52E0E30EA5F3B097BAA3616B /* Pods */,
+				830085A277B99A1D5CE3E760 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -147,18 +79,65 @@
 		0BF67F461F9F5CA9007CD7D3 /* CabinDefectManagement */ = {
 			isa = PBXGroup;
 			children = (
-				0B91412E1F9FB75500B61733 /* Defects Team */,
-				0B91412D1F9FB73500B61733 /* Cargo Team */,
-				0B91412C1F9FB70D00B61733 /* Inventory Team */,
+				4B04DE981FA1A37100D0D3BE /* Technician */,
+				4B1E2A971FA19AF400EE53E4 /* Planner */,
+				4B1E2A961FA19AE500EE53E4 /* Supervisor */,
 				0BF67F471F9F5CA9007CD7D3 /* AppDelegate.swift */,
 				0BF67F491F9F5CA9007CD7D3 /* ViewController.swift */,
 				0BF67F4B1F9F5CA9007CD7D3 /* Main.storyboard */,
 				0BF67F511F9F5CA9007CD7D3 /* Assets.xcassets */,
 				0BF67F531F9F5CA9007CD7D3 /* LaunchScreen.storyboard */,
+				4B04DE931FA19EA100D0D3BE /* Defects.swift */,
+				4B04DE941FA19EA100D0D3BE /* Employee.swift */,
+				4B04DE921FA19EA100D0D3BE /* GroundTime.swift */,
+				4B1E2A941FA18FC800EE53E4 /* GoogleService-Info.plist */,
 				0BF67F561F9F5CA9007CD7D3 /* Info.plist */,
 				0BF67F4E1F9F5CA9007CD7D3 /* CabinDefectManagement.xcdatamodeld */,
 			);
 			path = CabinDefectManagement;
+			sourceTree = "<group>";
+		};
+		4B04DE981FA1A37100D0D3BE /* Technician */ = {
+			isa = PBXGroup;
+			children = (
+				4B04DE991FA1A39000D0D3BE /* TechUITableViewCell.swift */,
+				4B04DE9A1FA1A39100D0D3BE /* TechUITableViewController.swift */,
+				4B04DE9B1FA1A39100D0D3BE /* TechUIViewController.swift */,
+			);
+			name = Technician;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		4B1E2A961FA19AE500EE53E4 /* Supervisor */ = {
+			isa = PBXGroup;
+			children = (
+				4B1E2A981FA19B3400EE53E4 /* SupervisorUITableViewController.swift */,
+			);
+			path = Supervisor;
+			sourceTree = "<group>";
+		};
+		4B1E2A971FA19AF400EE53E4 /* Planner */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Planner;
+			sourceTree = "<group>";
+		};
+		52E0E30EA5F3B097BAA3616B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				958CB3BFCB820F6127162257 /* Pods-CabinDefectManagement.debug.xcconfig */,
+				FA6DE0F2AF8322BBE7E433C1 /* Pods-CabinDefectManagement.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		830085A277B99A1D5CE3E760 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4096ADC4848D56CA109C2F5E /* Pods_CabinDefectManagement.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,9 +147,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0BF67F591F9F5CA9007CD7D3 /* Build configuration list for PBXNativeTarget "CabinDefectManagement" */;
 			buildPhases = (
+				FBC317C294D82368C51FD5FE /* [CP] Check Pods Manifest.lock */,
 				0BF67F401F9F5CA9007CD7D3 /* Sources */,
 				0BF67F411F9F5CA9007CD7D3 /* Frameworks */,
 				0BF67F421F9F5CA9007CD7D3 /* Resources */,
+				EC55A51417805C7C62F12F04 /* [CP] Embed Pods Frameworks */,
+				618AE5996B89F6F87E857EDE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -223,23 +205,87 @@
 				0BF67F551F9F5CA9007CD7D3 /* LaunchScreen.storyboard in Resources */,
 				0BF67F521F9F5CA9007CD7D3 /* Assets.xcassets in Resources */,
 				0BF67F4D1F9F5CA9007CD7D3 /* Main.storyboard in Resources */,
+				4B1E2A951FA18FC800EE53E4 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		618AE5996B89F6F87E857EDE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CabinDefectManagement/Pods-CabinDefectManagement-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC55A51417805C7C62F12F04 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CabinDefectManagement/Pods-CabinDefectManagement-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CabinDefectManagement/Pods-CabinDefectManagement-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FBC317C294D82368C51FD5FE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CabinDefectManagement-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0BF67F401F9F5CA9007CD7D3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B04DE951FA19EA100D0D3BE /* GroundTime.swift in Sources */,
+				4B04DE9C1FA1A39100D0D3BE /* TechUITableViewCell.swift in Sources */,
+				4B04DE9E1FA1A39100D0D3BE /* TechUIViewController.swift in Sources */,
+				4B04DE9D1FA1A39100D0D3BE /* TechUITableViewController.swift in Sources */,
 				0BF67F4A1F9F5CA9007CD7D3 /* ViewController.swift in Sources */,
-				0BC504481FA1BEFB004693A4 /* Line.swift in Sources */,
-				0BC504491FA1BEFB004693A4 /* ARSCNView.swift in Sources */,
-				0BC5044A1FA1BEFB004693A4 /* MeasureViewController.swift in Sources */,
 				0BF67F501F9F5CA9007CD7D3 /* CabinDefectManagement.xcdatamodeld in Sources */,
+				4B04DE971FA19EA100D0D3BE /* Employee.swift in Sources */,
 				0BF67F481F9F5CA9007CD7D3 /* AppDelegate.swift in Sources */,
-				0BC5044B1FA1BEFB004693A4 /* SCNVector3.swift in Sources */,
+				4B04DE961FA19EA100D0D3BE /* Defects.swift in Sources */,
+				4B1E2A991FA19B3400EE53E4 /* SupervisorUITableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,6 +420,7 @@
 		};
 		0BF67F5A1F9F5CA9007CD7D3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 958CB3BFCB820F6127162257 /* Pods-CabinDefectManagement.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -389,6 +436,7 @@
 		};
 		0BF67F5B1F9F5CA9007CD7D3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA6DE0F2AF8322BBE7E433C1 /* Pods-CabinDefectManagement.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
