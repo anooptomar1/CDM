@@ -39,11 +39,5 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
-	<key>NSCameraUsageDescription</key>
-	<string>For Image Detection</string>
-	<key>NSLocationAlwaysUsageDescription</key>
-	<string>For Live Tracking</string>
-	<key>NSPhotoLibraryUsageDescription</key>
-	<string>For Image Upload</string>
 </dict>
 </plist>
