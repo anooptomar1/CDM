@@ -72,7 +72,7 @@
 		0B91412D1F9FB73500B61733 /* Cargo Team */ = {
 			isa = PBXGroup;
 			children = (
-				0B9141301F9FB9C800B61733 /* Staff */,
+				0BC504431FA1B8A8004693A4 /* Staff */,
 				0B91412F1F9FB97C00B61733 /* Operators */,
 			);
 			name = "Cargo Team";
@@ -95,13 +95,6 @@
 			path = Operators;
 			sourceTree = "<group>";
 		};
-		0B9141301F9FB9C800B61733 /* Staff */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Staff;
-			sourceTree = "<group>";
-		};
 		0B9141311F9FB9DF00B61733 /* Caterer */ = {
 			isa = PBXGroup;
 			children = (
@@ -114,6 +107,13 @@
 			children = (
 			);
 			path = HQ;
+			sourceTree = "<group>";
+		};
+		0BC504431FA1B8A8004693A4 /* Staff */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Staff;
 			sourceTree = "<group>";
 		};
 		0BF67F3B1F9F5CA9007CD7D3 = {
