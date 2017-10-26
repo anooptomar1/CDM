@@ -5,6 +5,7 @@
     </device>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13174"/>
+        <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -477,9 +478,21 @@
                                     <constraint firstAttribute="height" constant="44" id="j8F-Ps-nGs"/>
                                 </constraints>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Eiw-il-qC2" userLabel="Reset Button">
+                                <rect key="frame" x="0.0" y="0.0" width="44" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="D1k-uh-i0v"/>
+                                    <constraint firstAttribute="width" constant="44" id="uNt-gf-x1N"/>
+                                </constraints>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="back" translatesAutoresizingMaskIntoConstraints="NO" id="M8R-JZ-RiA" userLabel="Reset Image View">
+                                <rect key="frame" x="14" y="14" width="20" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="Eiw-il-qC2" firstAttribute="baseline" secondItem="WxT-wq-OIm" secondAttribute="baseline" id="3Go-xO-GTR"/>
                             <constraint firstItem="MKS-aA-St6" firstAttribute="centerX" secondItem="PsH-2J-EFL" secondAttribute="centerX" id="4RP-hp-UI1"/>
                             <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="7H4-1d-sXo" secondAttribute="trailing" constant="20" symbolic="YES" id="8x0-Cg-kcD"/>
                             <constraint firstItem="lhv-9D-Iez" firstAttribute="trailing" secondItem="7H4-1d-sXo" secondAttribute="leading" id="F1n-ee-ud1"/>
@@ -488,9 +501,12 @@
                             <constraint firstItem="7qt-vD-Fbb" firstAttribute="leading" secondItem="lhv-9D-Iez" secondAttribute="leading" id="ORC-RX-qp0"/>
                             <constraint firstItem="MKS-aA-St6" firstAttribute="centerY" secondItem="PsH-2J-EFL" secondAttribute="centerY" id="QLe-qp-Ssk"/>
                             <constraint firstItem="7qt-vD-Fbb" firstAttribute="bottom" secondItem="eAF-Ob-LTJ" secondAttribute="bottom" id="RVk-5K-Is4"/>
+                            <constraint firstItem="Eiw-il-qC2" firstAttribute="firstBaseline" secondItem="WxT-wq-OIm" secondAttribute="firstBaseline" id="UgT-wJ-sLU"/>
                             <constraint firstItem="7H4-1d-sXo" firstAttribute="centerY" secondItem="PsH-2J-EFL" secondAttribute="centerY" id="WfE-X8-G0L"/>
+                            <constraint firstItem="Eiw-il-qC2" firstAttribute="leading" secondItem="7qt-vD-Fbb" secondAttribute="leading" id="WoP-oO-6jJ"/>
                             <constraint firstItem="wI0-5K-tZW" firstAttribute="leading" secondItem="WxT-wq-OIm" secondAttribute="leading" constant="16" id="dLB-hI-l1x"/>
                             <constraint firstItem="lhv-9D-Iez" firstAttribute="top" secondItem="PsH-2J-EFL" secondAttribute="top" id="eCm-al-3a1"/>
+                            <constraint firstItem="Eiw-il-qC2" firstAttribute="top" secondItem="WxT-wq-OIm" secondAttribute="top" id="gAZ-pF-lTx"/>
                             <constraint firstItem="7qt-vD-Fbb" firstAttribute="bottom" secondItem="lhv-9D-Iez" secondAttribute="bottom" id="hJH-CA-3Ra"/>
                             <constraint firstItem="odS-n5-q5Y" firstAttribute="centerX" secondItem="FxN-cZ-nbn" secondAttribute="centerX" id="j9q-Yb-Y4a"/>
                             <constraint firstItem="WxT-wq-OIm" firstAttribute="trailing" secondItem="wI0-5K-tZW" secondAttribute="trailing" constant="10" id="jId-IH-dXc"/>
@@ -977,6 +993,7 @@
     <resources>
         <image name="Login Wallpaper" width="1412" height="2662"/>
         <image name="SIA Logo" width="1280" height="468"/>
+        <image name="back" width="256" height="256"/>
         <image name="meter" width="50" height="137"/>
         <image name="reset" width="44" height="44"/>
         <image name="targetWhite" width="60" height="60"/>
